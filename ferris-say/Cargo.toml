@@ -1,0 +1,17 @@
+[package]
+name = "ferris-say"
+version = "0.1.0"
+edition = "2021"
+description = "Faster Nmap Scanning with Rust"
+homepage = "https://github.com/alejandro0619/blog-projects/tree/main/ferris-say"
+repository = "https://github.com/alejandro0619/blog-projects/tree/main/ferris-say"
+license = "MIT"
+keywords = ["cowsay", "utilities", "cli"]
+categories = ["command-line-utilities"]
+readme="README.md"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = "0.12.1"
+clap = { version = "3.1.6", features = ["derive"] }
+
